@@ -1,89 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Bootstrap</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<title>Bootstrap</title>
 </head>
+
 <body>
-<header>
-  <h1>Passerelle Numérique</h1>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing 
-    elit. Esse, illo porro minima 
-  </p>
-  <hr>
-  <p>
-    <a href="#" role="button">Bouton</a>
-  </p>
-  <nav>
-    <ol>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Catégorie</a></li>
-      <li>Data</li>
-    </ol>
-  </nav>
-</header>
-  <section>
-    <article>
-      <img src="http://fakeimg.pl/300/" alt="fakeimg">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
-        rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
-        lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
-        orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
-        Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
-      </p>
-      <button type="button">Button</button>
-    </article>
-    <article>
-      <img src="http://fakeimg.pl/300/" alt="fakeimg">
-      <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
-          rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
-          lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
-          orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
-          Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
-      </p>
-      <button type="button">Button</button>
-    </article>
-    <article>
-      <img src="http://fakeimg.pl/300/" alt="fakeimg">
-      <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
-          rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
-          lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
-          orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
-          Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
-      </p>
-      <button type="button">Button</button>
-    </article>
+
+	<header class="card bg-light">
+    <h1>Passerelle Numérique</h1>
+		<p>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, illo porro minima
+		</p>
+		<hr>
+
+		<p>
+			<a class="btn btn-warning" href="#" role="button">Bouton</a>
+		</p>
+
+		<nav class="bg-dark">
+			<ol class="row justify-content-start">
+				<li class="navbar-brand"><a class="text-light" href="#">Home/</a></li>
+				<li class="navbar-brand"><a class="text-light" href="#">Catégorie/</a></li>
+				<li class="navbar-brand text-success">Data</li>
+			</ol>
+		</nav>
+	</header>
+
+
+
+
+	<section class="container-fluid pb-5 pt-3">
+		<div class="container">
+			<div class="row justify-content-around">
+
+				<article class="col-lg-4 col-md-4 pt-5">
+          <div class="row justify-content-around">
+						<img src="http://fakeimg.pl/300/" alt="fakeimg" class="text-center">
+					</div>
+					<div class="text-center pt-3">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+						</p>
+
+						<div class="pt-1">
+							<button class="btn btn-primary" type="button">Button</button>
+						</div>
+					</div>
+        </article>
+
+
+				<article class="col-lg-4 col-md-4 pt-5">
+					<div class="row justify-content-around">
+						<img class="rounded-circle" src="http://fakeimg.pl/300/" alt="fakeimg">
+					</div>
+					<div class="text-center pt-3">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+						</p>
+						<div class="pt-4">
+							<button class="btn btn-success" type="button">Button</button>
+						</div>
+					</div>
+				</article>
+
+				<article class="col-lg-4 col-md-6 pt-5">
+					<div class="row justify-content-around">
+						<img src="http://fakeimg.pl/300/" alt="fakeimg">
+					</div>
+					<div class="text-center pt-3">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+						</p>
+						<div class="pt-5">
+							<button class="btn btn-primary" type="button">Button</button>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+
+	</section>
+
+
+
+
+	<section class="container-fluid pb-5">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-6 border">
+					<h1>Lorem Ipsum</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus
+					</p>
+					<button class="btn btn-dark btn-lg btn-block" type="button">Validation</button>
+
+				</div>
+
+				<div class="col-lg-6 border">
+					<h1>Lorem Ipsum</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. Nam elit massa, finibus vitae gravida at, lobortis eget tellus
+					</p>
+
+					<button class="btn btn-dark btn-lg btn-block" type="button">Validation</button>
+
+				</div>
+			</div>
+		</div>
   </section>
-  <section>
-    <h1>Lorem Ipsum</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-      rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-      lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-      orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
-      Nam elit massa, finibus vitae gravida at, lobortis eget tellus
-    </p>
-    <button type="button">Validation</button>
-    <h1>Lorem Ipsum</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-      rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-      lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-      orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
-      Nam elit massa, finibus vitae gravida at, lobortis eget tellus
-    </p>
-    <button type="button">Validation</button>
-  </section>
-</body>
+  </body>
 </html>
